@@ -1,0 +1,9 @@
+<App>
+	<JavaScript File="MainView.js" />
+	<StackPanel>
+		<TextBox PlaceholderText="name" Value="{name}"/>
+		<Slider Minimum="0" Maximum="5" Value="{happy}"/>
+		<Button Text="submit" Clicked="{submit}"/>
+		<Text Value="{name} : {happyText}"/>
+	</StackPanel>
+</App>
